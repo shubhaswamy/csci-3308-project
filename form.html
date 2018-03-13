@@ -1,0 +1,145 @@
+<!-- Claire Martin -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Forms for Project</title>
+   <link rel="stylesheet" href="formStyle.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a  href="file:///Users/clairemarie/Desktop/main.html">Home</a>
+  <a class="active" href="file:///Users/clairemarie/Desktop/form.html?#" >Request Software</a>
+  <a href="file:///Users/clairemarie/Desktop/main.html">Contact</a>
+  <a href="#about">About</a>
+  </div>
+
+
+<br>
+<br>
+        <div class="row">
+                <div class="col title">RequestIT</div>
+        </div>
+        <br>
+          <br>
+           <br>
+        <form>
+          <div class = "row">
+            <div class="col-sm-3"></div>
+                <div class="form-group col-sm-6">
+                  <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Email Address:" style="background-color:#CFDBE3">
+                </div>
+            </div>
+              <br>
+
+          <div class = "row">
+
+          <div class="col-sm-3"></div>
+
+          <a class = "col-sm-6 choice" href="#" onclick="$('#hiddenText').show(); return false;">Request Software:</a>
+        </div>
+           <div class = "row">
+            <div class="col-sm-3"></div>
+         <div style="display: none;" id="hiddenText">
+          
+                  <div class="form-group col-sm-12">
+                        <select class="form-control drop" id="sel1" >
+                          <option>Which software are you requesting:</option>
+                          <option>Adobe Acrobat Pro</option>
+                          <option>Antivirus</option>
+                          <option>Apple Software</option>
+                          <option>AutoCad</option>
+                          <option>ChemDraw</option>
+                          <option>Fetch</option>
+                          <option>Four Winds Digital Signage</option>
+                          <option>LabVIEW</option>
+                          <option>MatLab</option>
+                          <option>Oracle</option>
+                          <option>PGP Encryption</option>
+                          <option>Qualtrics</option>
+                          <option>R</option>
+                          <option>Stata</option>
+                          <option>Virtual Machine</option>
+                          <option>VPN</option>
+                        </select>
+                      </div>
+                </div>
+              </div>
+
+         </div>
+
+          </div>
+
+            <br>
+            <br>
+
+
+          <div class = "row">
+
+          <div class="col-sm-3"></div>
+
+
+         <a class = "col-sm-5 choice" href="#" onclick="$('#hiddenText2').show(); return false;">   Issues with Software:</a>
+       </div>
+
+       <div class = "row">
+        <div class="col-sm-3"></div>
+         <div style="display: none;" id="hiddenText2">
+           
+                    <div class="form-group col-sm-12">
+                        <select class="form-control drop" id="sel1" >
+                          <option>Which software is troubling you:</option>
+                          <option>Adobe Acrobat Pro</option>
+                          <option>Antivirus</option>
+                          <option>Apple Software</option>
+                          <option>AutoCad</option>
+                          <option>ChemDraw</option>
+                          <option>Fetch</option>
+                          <option>Four Winds Digital Signage</option>
+                          <option>LabVIEW</option>
+                          <option>MatLab</option>
+                          <option>Oracle</option>
+                          <option>PGP Encryption</option>
+                          <option>Qualtrics</option>
+                          <option>R</option>
+                          <option>Stata</option>
+                          <option>Virtual Machine</option>
+                          <option>VPN</option>
+                        </select>
+                      </div>
+                     
+                      <div class="form-group col-sm-12">
+                            <textarea class="form-control col-sm-12" rows="5" id="comment" placeholder="Describe the issue:" style="background-color:#CFDBE3"></textarea>
+                          </div>
+                        </div>
+
+
+         </div>
+
+               
+
+       
+
+          <br>
+          <br>
+
+          <div class= "row">
+             <div class="col-sm-3"></div>
+                <div class = "col-sm-8">
+                          <button type="submit" class="btn btn-primary col-sm-3 submit" style="background-color: #CFDBE3; color: #383834; border-color: #F3F3DD">Submit</button>
+                </div>
+              </div>
+          
+
+            </form>
+
+</body>
+</html>

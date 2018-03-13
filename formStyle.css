@@ -1,0 +1,53 @@
+/* Claire Martin */
+/*Style fot pyramid */
+
+body{
+    background-image: url("http://2.bp.blogspot.com/-Xmo26BMqg5Q/UihlqVwTwgI/AAAAAAAAAv0/V-Rrgm0V6oo/s1600/Top+10+best+Simple+Awesome+Background+Images+for+Your+Website+or+Blog3.jpg")
+}
+
+.choice{
+    color:#F3F3DD;
+    font-size: 30px;
+}
+
+.title{
+    color: #F9F3E6;
+    font-size: 60px;
+    text-align: center;
+    font-family: Avenir
+}
+ .drop{
+    background-color: #CFDBE3;
+ }
+
+ .submit{
+    background-color: #CFDBE3;
+ }
+
+ /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #EFE9DA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #CFDBE3;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color:#EFE9DA;
+    color:  #383834;
+}
