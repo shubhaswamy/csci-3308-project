@@ -1,6 +1,6 @@
 create database if not exists RequestIt;
 USE RequestIt;
-Drop Table Account_info;
+Drop Table if exists Account_info;
 Create Table if not exists Account_Info (
 	user_id INT(1) not null, 
 	Full_name VARCHAR(40) DEFAULT null, 
@@ -9,7 +9,7 @@ Create Table if not exists Account_Info (
     affilation VARCHAR(40) DEFAULT null,
 	primary key (user_id)
 	) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=7;
-Drop Table Orders;
+Drop Table if exists Orders;
 Create Table if not exists Orders (
 	order_id INT not null AUTO_INCREMENT, 
 	user_id INT not null,
@@ -18,7 +18,7 @@ Create Table if not exists Orders (
     request_date datetime DEFAULT null,
     primary key (order_id)
     )ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=7;
-Drop Table Order_Status;
+Drop Table if exists Order_Status;
 Create Table if not exists Order_Status (
 	order_id INT not null AUTO_INCREMENT,
 	Software_Name VARCHAR(40) DEFAULT null,
