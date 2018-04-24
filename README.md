@@ -1,7 +1,7 @@
-#Request IT
+# Request IT
 
 
-##Team Members: 
+## Team Members: 
 Cassidy Carpenter
 Micheal Kling
 Claire Martin
