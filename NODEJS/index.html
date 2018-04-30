@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>RequestIT Form</title>
+  <link rel="stylesheet" href="form.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/new-age.min.css" rel="stylesheet"> -->
+    <link href="css/new-age.css" rel="stylesheet">
+</head>
+
+<body style= "background-color: black">
+
+
+  
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a href="index.html" class="navbar-brand js-scroll-trigger" href="#page-top">RequestIT</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link js-scroll-trigger" href="#download">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link js-scroll-trigger" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link js-scroll-trigger" href="#login">Logout</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link js-scroll-trigger" href="#contact">Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<br>
+<br>
+<br>
+<br>
+          <br>
+           <br>
+<h2 style = "color: white;"> <center> <b>RequestYOUR</b> Software </center></h2>
+
+<br>
+<br>
+        
+        
+        <form id="tableForm" action="/sel" method='post' >
+          <!--<div class = "row">
+            <div class="col-sm-3" style = "float: left;"></div>
+                <div class="form-group col-sm-6">
+                  <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Email Address:">
+                </div>
+            </div> -->
+              <br>
+
+   <div class = "row">
+            <div class="col-sm-3"></div>
+                <div class="form-group col-sm-6">
+                  <!--Maybe two different forms for first and last names =-->
+                  <input type="name" name="nameText" class="form-control"  aria-describedby="name" placeholder="First and Last Name:">
+                </div>
+            </div>
+              <br>
+
+
+
+
+
+          <div class = "row">
+
+          <div class="col-sm-3"></div>
+
+          <a class = "col-sm-6 choice" href="#" onclick="$('#hiddenText').show(); return false;">OS:</a>
+        </div>
+           <div class = "row">
+            <div class="col-sm-3"></div>
+         <div style="display: none;" id="hiddenText">
+          
+                  <div class="form-group col-sm-12">
+                        <select name="osDrop" class="form-control drop" id="sel1" >
+                       
+                          <option>Adobe Acrobat Pro</option>
+                          <option>Adobe Creative Cloud</option>
+                          <option>Antivirus</option>
+                          <option>Apple Software</option>
+                          <option>CU Boulder Alerts</option>
+                          <option>CU Clickers</option>
+                          <option>EndNote</option>
+                          <option>Fetch</option>
+                          <option>Four Winds Digitial Signage</option>
+                          <option>Highly Confidential Data- Identity Finder</option>
+                          <option>IDL/ENVI</option>
+                          <option>JMP</option>
+                          <option>LabVIEW</option>
+                          <option>LaTeX</option>
+                          <option>Mathetmatica</option>
+                          <option>MATLAB</option>
+
+                          <option>Microsoft Software</option>
+                          <option>Mnova</option>
+                          <option>PGP Encryption</option>
+                          <option>Qualtrics</option>
+                          <option>R</option>
+                          <option>SPSS</option>
+                          <option>Stata</option>
+                          <option>VoiceThread</option>
+                          <option>VPN</option>
+
+                        </select>
+                      </div>
+                </div>
+              </div>
+
+         </div>
+
+          </div>
+
+            <br>
+            <br>
+
+ <div class = "row">
+
+          <div class="col-sm-3"  style="float-left;"></div>
+
+          <a class = "col-sm-6 choice" href="#" onclick="$('#hiddenText2').show(); return false;">Linux/Unix:</a>
+        </div>
+           <div class = "row">
+            <div class="col-sm-3"></div>
+         <div style="display: none;" id="hiddenText2">
+          
+                  <div class="form-group col-sm-12">
+                        <select name="linuxDrop" class="form-control drop" id="sel2" >
+                          
+                  
+                          <option>Antivirus</option>
+                          
+                        
+                          <option>EndNote</option>
+                         
+                          
+                          <option>Highly Confidential Data- SENF</option>
+                          <option>IDL/ENVI</option>
+                          
+                          <option>LaTeX</option>
+                          <option>Mathetmatica</option>
+                          <option>MATLAB</option>
+
+                          
+                          <option>Mnova</option>
+                          <option>Oracle</option>
+
+                         
+                          <option>Qualtrics</option>
+                          <option>R</option>
+                          <option>RedHat Linux</option>
+                          <option>SAS</option>
+                          <option>SPSS</option>
+                          <option>Stata</option>
+                          <option>VoiceThread</option>
+                          <option>VPN</option>
+                    
+                        </select>
+                      </div>
+                </div>
+              </div>
+
+         </div>
+
+          </div>
+
+         <br>
+         <br>
+
+           <div class = "row">
+
+          <div class="col-sm-3"></div>
+
+          <a class = "col-sm-6 choice" href="#" onclick="$('#hiddenText3').show(); return false;">Windows:</a>
+        </div>
+           <div class = "row">
+            <div class="col-sm-3"  style="float-left;"></div>
+         <div style="display: none;" id="hiddenText3">
+          
+                  <div class="form-group col-sm-12">
+                        <select name="windowsDrop" class="form-control drop" id="sel3" >
+                        
+                          <option>Adobe Acrobat Pro</option>
+                          <option>Adobe Creative Cloud</option>
+                          <option>Antivirus</option>
+                          <option>ArcGIS /Esri software</option>
+                           <option>AutoCAD</option>
+                            <option>ChemDraw</option>
+                          <option>CU Boulder Alerts</option>
+                          <option>CU Clickers</option>
+                          <option>EndNote</option>
+                          <option>Fetch</option>
+                          <option>Four Winds Digitial Signage</option>
+                          <option>Highly Confidential Data- Identity Finder</option>
+                          <option>IDL/ENVI</option>
+                          <option>JMP</option>
+                          <option>LabVIEW</option>
+                          <option>LaTeX</option>
+                          <option>Mathetmatica</option>
+                          <option>MATLAB</option>
+
+                          <option>Microsoft Software</option>
+                          <option>Mnova</option>
+                           <option>NVivo</option>
+                            <option>Oracle</option>
+                             <option>OriginPro</option>
+                          <option>PGP Encryption</option>
+                          <option>Qualtrics</option>
+                          <option>R</option>
+                           <option>SAS</option>
+                            <option>SolidWorks</option>
+                          <option>SPSS</option>
+                          <option>Stata</option>
+                          <option>VoiceThread</option>
+                          <option>VPN</option>
+
+                        </select>
+                      </div>
+                </div>
+              </div>
+
+         </div>
+
+          </div>
+          <br>
+          <br>
+          <!-- Leaving required by alone for now -->
+          <div class = "row">
+            <div class="col-sm-3"></div>
+                <div class="form-group col-sm-6">
+                  <h6 style= "color: #fdcc52"> Required by </h6>
+                  <input name="date" id="date" type="date"></input>
+                </div>
+            </div>
+            <br>
+          <div class = "row">
+            <div class="col-sm-3"></div>
+                <div class="form-group col-sm-6">
+                <h6 style= "color: #fdcc52"> Additional Details </h6>
+                  <textarea name="comment" rows="4" cols="50"  >
+Comments</textarea>
+                </div>
+            </div>
+              <br>
+              <br>
+
+          <div class= "row">
+             <div class="col-sm-3"></div>
+                <div class = "col-sm-8">
+                          <button type="submit" class="btn btn-primary col-sm-3 submit" style="background-color: #fdcc52; color: #383834; border-color: #F3F3DD">Submit</button>
+                </div>
+              </div>
+          
+
+            </form>
+
+      
+</div>
+
+</body>
+</html>
