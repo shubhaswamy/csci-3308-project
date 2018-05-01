@@ -1,6 +1,6 @@
 # Request IT
 
-## Link: 
+## Link to website: 
 https://bit.ly/2qW83RO
 
 ## Team Members: 
