@@ -111,3 +111,13 @@ class Processor:
     		return False
     	else:
     		return True
+        
+        
+    def is_loggedIn(self):
+    tester = app.test_client(self)
+    response = tester.post(
+      '/login',
+      data = dict(username="test@gmail.com", password="test", login_form=""),
+      follow_redirects=True
+      )
+    self.assertIn(b'you are logged in', response.data)
