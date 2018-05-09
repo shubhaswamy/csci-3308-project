@@ -21,7 +21,7 @@ Our repository is organized into many folders and subfolers on Github. We chose 
 ## Finding and Building Documents
 Described above, our repository is organized by descriptive names of files and purposes of each commit. You can use the search bar to easily type in codewords that will show files with only those certain codewords in it. This makes finding files very easy and accessible. As for building documents, we built most of our documents outside of the repository and committed them once we made the changes to the original document. 
 
-## Builing, Running, and Testing Code
+## Building, Running, and Testing Code
 Building code happened in either Sublime and the VM for Computer Science, or in a code runner like Atom, or MySQL. Running the code also took place on the VM, Sublime, or another coderunner. The terminal is always the most useful application to run and test code. This was true for all of the aspects of our project like the html, test cases, and database. Testing the code and running the code took place in the terminal and retrun with errors or with a successful test. Testing was done until all the code would execute correctly. 
 
 
